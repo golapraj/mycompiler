@@ -1,0 +1,78 @@
+hashcover LT inputoutput.header RT
+hashcover LT inputoutput.header RT
+
+!! this is a single line comment
+!! this is a single line comment
+%&
+this is a multiple line comment
+this is a multiple line comment
+this is a multiple line comment
+&%
+
+faka main LP RP LB
+
+sm
+
+purno A cm B sm
+
+purno C sm
+
+purno D cm E sm
+
+A -> 48 sm
+
+B -> 5 sm
+
+C -> A MOD B sm
+
+D -> 10 -- LP 2 ++ 4 RP sm
+
+E -> 5 POW 3 sm
+
+F -> FACT 5 sm
+E ++ D ++ C sm
+
+!! this is a single line comment
+!! this is a single line comment
+%&
+this is a multiple line comment
+this is a multiple line comment
+this is a multiple line comment
+&%
+
+SIN LP 30 RP sm
+
+COS LP 30 RP sm
+
+TAN LP 30 RP sm
+
+LOG LP 30 RP sm
+
+IC LP A GTR B RP LB
+5 ++ 5 sm
+RB
+OW LB
+100 // 2 -- 2 sm
+RB
+
+IC LP A GTR B RP LB
+IC LP B GTR A RP LB
+5 ++ 5 sm
+RB
+OW LB
+100 // 2 -- 2 sm
+RB
+RB
+OW LB
+100 // 2 -- 2 sm
+RB
+
+WHILE LP A GTR B RP LB
+5 ++ 5 sm
+RB
+
+FOR LP 5 ++ 5 sm A GTR B sm 6 ++ 5 RP LB
+5 ++ 9 sm
+RB
+
+RB
